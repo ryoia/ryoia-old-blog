@@ -1,0 +1,65 @@
+body { margin: 10px auto; width: 90%; background-color: #F8F8FF; }
+
+a { text-decoration: none; color: #999; background-color: #fee5b3; }
+a {
+  border-radius: 10%;
+  margin-left: 10px;
+  padding: 3px 5px;
+  /* border-top: 15px inset transparent; */
+  /* border-bottom: 15px inset transparent; */
+  /* border-left: 20px solid #08C; */
+  /* content: ""; */
+  /* top: 0; */
+  /* right: -20px; */
+}
+a:hover { text-decoration: underline; }
+a:active { transform: rotate(45deg); }
+
+p, ul { font-size: 1.5em; line-height: 1em; color: #333; }
+
+h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
+h1 { font-size: 3em;  }
+h2 { font-size: 2.7em; }
+h3 { font-size: 2.3em; }
+h4 { font-size: 1.9em; }
+
+nav ul, footer ul { text-align: center; font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
+nav ul li, footer ul li { display: inline; margin-right: 20px; }
+
+footer { border-top: 1px solid #d5d5d5; font-size: .8em; margin-top: 3%; }
+footer {
+  font-size: 1em;
+  position:absolute;
+  bottom:5%;
+  width:90%;
+}
+
+.home { margin: 2%; }
+.home h1 { text-align: center; }
+.home p { color: #6d657f; }
+
+/* Blog */
+ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
+ul.posts li { list-style: none; }
+
+/* resume */
+.resume { margin: 0px 0px 20px; text-align: center; }
+.resume h1 { font-size: 3em; }
+.resume h2 { font-size: 2em; }
+.resume address, .resume { font-family: 'Proxima Nova', 'Arial', 'Sans-Serif'; }
+.resume address, .resume p { font-size: 0.9em; }
+.resume .download { float: right; font-size: .8em; text-transform: uppercase; }
+.resume .addr { white-space: nowrap; }
+
+.talks {
+  display: inline-block;
+  margin-right: 5%;
+}
+
+.title {
+  text-align: center;
+}
+
+.talk-title {
+  text-align: center;
+}
